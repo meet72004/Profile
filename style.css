@@ -1,0 +1,234 @@
+/* === Base Reset and Responsive Setup === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e2a38;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* === Profile Picture === */
+.profilepic {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  font-size: larger;
+  color: #e0e0e0;
+}
+
+/* === Intro Section === */
+.intro {
+  background-color: aqua;
+  width: 80vw;
+  max-width: 350px;
+  height: 80vw;
+  max-height: 350px;
+  border-radius: 50%;
+  border: 20px solid #9144ad;
+  background-image: url('meet.jpg.jpg');
+  background-size: cover;
+}
+
+
+.start,
+.middle,
+.middle2,
+.myself {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.sps{
+    display: flex;
+    gap: 7rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+.cc{
+    display: flex;
+    gap: 7rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+.wa{
+    display: flex;
+    gap: 7rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+
+h2 {
+  padding: 20px;
+  font-size: 4vw;
+  color: white;
+  text-align: center;
+}
+
+h3, h5, h6, h7 {
+  font-size: 2.5vw;
+  color: aquamarine;
+  text-align: center;
+}
+
+h5 {
+  color: #44ad62;
+}
+
+h6, h7 {
+  margin-bottom: 10px;
+  color: #44ad62;
+}
+
+/* === Text Elements === */
+.profilepic p,
+.learned li,
+.goal li,
+.number,
+.mail {
+  font-size: 1.5vw;
+  color: white;
+}
+
+.git {
+  width: 100%;
+  max-width: 900px;
+  font-size: 1.8vw;
+  color: white;
+}
+
+#link {
+  height: 60px;
+  width: 90%;
+  max-width: 400px;
+  margin-top: 20px;
+  background-color: #24292e;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#link:hover {
+  background-color: #33383e;
+}
+
+#link i {
+  font-size: 1.5rem;
+}
+
+/* === Section Backgrounds === */
+.middle2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    background-image: url('study.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #e0e0e0;
+    max-width: 100%;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* === Responsive Contact Section === */
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 90%;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.whatsapp,
+.gmail {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: white;
+  height: 60px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  font-size: 1rem;
+}
+
+.logo i {
+  font-size: 24px;
+  color: #25D366;
+}
+
+.logoG i {
+  font-size: 24px;
+  color: #EA4335;
+}
+
+/* === Color Text IDs === */
+#stone,
+#convert,
+#weather {
+  color: #ad446e;
+  font-size: 1.5rem;
+}
+
+/* === MEDIA QUERIES === */
+@media (max-width: 768px) {
+  h2, h3, h5, h6, h7 {
+    font-size: 6vw;
+  }
+
+  .profilepic p,
+  .learned li,
+  .goal li,
+  .git,
+  .number,
+  .mail {
+    font-size: 4vw;
+  }
+
+  .intro {
+    width: 60vw;
+    height: 60vw;
+  }
+
+  #link {
+    font-size: 1rem;
+  }
+
+  .middle2, .cc, .wa, .myself {
+    flex-direction: column;
+    gap: 1rem;
+    width: 95%;
+    margin-left: 0;
+  }
+}
+.myself{
+    color: #c78b8b;
+}
+
+.number,
+.mail{
+    color: black;
+}
