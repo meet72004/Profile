@@ -1,1 +1,1 @@
-# Profile
+HEY ,  i know this portfolio is messy and their is nothing much interesting or cool project inside , but just wait , i will make a profile every developer will be jealous of  and in just 6 months , why can i do that and others wont in 6 months? BECAUSE I WILL WORK HARD MY ASS OFF KEEP YOUR EYES ON MEEE!!
