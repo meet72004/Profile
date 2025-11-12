@@ -3,91 +3,313 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MeetPurohit</title>
+    <title>Meet Purohit | Full Stack Developer</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a578462af0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="start">
-        <div class="profilepic">
-            <h2>Hey there, I’m Meet Purohit 👋</h2>
-            <p>
-               I don’t just write code—I craft digital experiences. As a passionate front-end developer and design enthusiast, I blend creativity with clean code to build interfaces that not only function, but *feel right*. This site is more than just my resume—it's a window into how I think, learn, and build.
-            </p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">MP</div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
         </div>
-        <div class="intro"></div>
-    </div>
-    <div class="middle">
-        <button id="link"><i class="fa-brands fa-github"></i></button>
-        <div class="git">
-            <p>this is my github profile link button , although i have not uploaded many projects , but i aim and want to fill my github with many projects . I wish to keep improving myself and enhance my skills . i will also provide brief info related to my projects below </p>
-        </div>
-    </div>
-    <h3>My Skills</h3>
-    <div class="middle2">
-        <div class="learned">
-           <h4>Technologies I've Learned</h4>
-           <ul>
-               <li>HTML</li>
-               <li>CSS</li>
-               <li>JavaScript</li>
-               <li>React</li>
-           </ul>
-        </div>
+    </nav>
 
-        <div class="goal">
-           <h4>Currently Learning / Future Goals</h4>
-           <ul>
-               <li>Full Stack Development</li>
-               <li>Tailwind CSS</li>
-               <li>Node.js</li>
-               <li>MongoDB</li>
-           </ul>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hey there, I'm</span>
+                        <span class="name">Meet Purohit</span>
+                        <span class="role">Full Stack Developer</span>
+                    </h1>
+                    <p class="hero-description">
+                        I don't just write code—I craft digital experiences. As a passionate full-stack developer and design enthusiast, I blend creativity with clean code to build interfaces that not only function, but <em>feel right</em>. This site is more than just my resume—it's a window into how I think, learn, and build.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="https://github.com/meet72004" target="_blank" class="btn btn-primary">
+                            <i class="fa-brands fa-github"></i>
+                            View GitHub
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fa-solid fa-envelope"></i>
+                            Get In Touch
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-image-wrapper">
+                        <div class="profile-image"></div>
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <h5>My little Projects for now</h5>
-    <div class="sps">
-        <p>This is my first java script project , as well as first ever working project i created , this little project filled with me with a lot of excitment and motivation to keep trying to develop more bigger and fun projects. this one is just normal stone paper sciccor game.whose code is uploaded on my github</p>
-        <p id="stone">stone paper scissors</p>
-    </div>
-    <div class="cc">
-        <p id="convert">Currency Converter</p>
-        <p>One of the small but meaningful projects I built is a simple currency converter. It fetches live exchange rates using an API and updates flags dynamically based on the selected countries. While it's a basic tool, it was my first hands-on experience working with APIs, and it gave me a better understanding of how real-time data works in web applications. It also sparked my interest in exploring more interactive and useful features in future projects.</p>
-    </div>
-    <div class="wa">
-        <p>Another small project I worked on was a weather app that lets users search for a location and displays the current temperature and weather conditions using live data from an API. It was a simple project, but it helped me understand how to work with user input, asynchronous requests, and real-time data. It also gave me a better sense of how frontend and backend logic can work together in interactive applications.</p>
-        <p id="weather">Weather update</p>
-    </div>
-    <h6>Educational Score</h6>
-    <div class="myself">
-        <div class="q">
-            <p>10TH percentage     :</p>
-            <p>12TH percentage     :</p>
-            <p>CGPI SEM I      :</p>
-            <p>CGPI SEM II     :</p>
-            <p>CGPI SEM III    :</p>
-            <p>CGPI SEM IV     :</p>
+        <div class="scroll-indicator">
+            <i class="fa-solid fa-chevron-down"></i>
         </div>
-        <div class="A">
-            <p>91%</p>
-            <p>80%</p>
-            <p>8.15</p>
-            <p>8.30</p>
-            <p>8.10</p>
-            <p>8.30</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="skill-title">Technologies I've Mastered</h3>
+                    <div class="skill-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Next.js</span>
+                        <span class="tag">Node.js</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+                    <h3 class="skill-title">Currently Learning</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Tailwind CSS</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">Express.js</span>
+                        <span class="tag">TypeScript</span>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <h7>Contact Me</h7>
-    <div class="contact">
-        <div class="whatsapp">
-           <div class="logo"><i class="fa-brands fa-whatsapp"></i></div>
-           <div class="number">91+ 8107442131</div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A collection of projects showcasing my skills and passion for development</p>
+            
+            <div class="projects-grid">
+                <!-- Vehicle Specification Project -->
+                <div class="project-card featured">
+                    <div class="project-badge">Featured</div>
+                    <div class="project-header">
+                        <h3 class="project-title">Vehicle Specification</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Full Stack</span>
+                            <span class="tech-tag">Frontend</span>
+                            <span class="tech-tag">Backend</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A comprehensive full-stack application built with Next.js that provides detailed vehicle specifications. This project demonstrates my ability to work with both frontend and backend technologies, implementing a complete solution from user interface to server-side logic. Features include dynamic data handling, responsive design, and efficient API integration.
+                    </p>
+                    <div class="project-features">
+                        <div class="feature-item">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Next.js Framework</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Full Stack Implementation</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/meet72004" target="_blank" class="project-link">
+                            <i class="fa-brands fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Currency Converter -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Currency Converter</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API</span>
+                            <span class="tech-tag">Frontend</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A practical currency converter application that fetches live exchange rates using an API. Features dynamic flag updates based on selected countries and real-time rate calculations. This project was my first hands-on experience working with APIs, providing valuable insights into asynchronous data handling and real-time updates in web applications.
+                    </p>
+                    <div class="project-features">
+                        <div class="feature-item">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Real-time API Integration</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Dynamic UI Updates</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/meet72004" target="_blank" class="project-link">
+                            <i class="fa-brands fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Weather App -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Weather App</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API</span>
+                            <span class="tech-tag">Frontend</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        An interactive weather application that allows users to search for any location and receive current temperature and weather conditions using live API data. This project enhanced my understanding of user input handling, asynchronous requests, and the integration between frontend interfaces and backend data services.
+                    </p>
+                    <div class="project-features">
+                        <div class="feature-item">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Location Search</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Live Weather Data</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/meet72004" target="_blank" class="project-link">
+                            <i class="fa-brands fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Stone Paper Scissors -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Stone Paper Scissors</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Game</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        My first JavaScript project and the beginning of my development journey. This classic game project filled me with excitement and motivation to continue building bigger and more complex applications. It represents my foundation in JavaScript and interactive web development.
+                    </p>
+                    <div class="project-features">
+                        <div class="feature-item">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Interactive Game Logic</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fa-solid fa-check"></i>
+                            <span>User Interface Design</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/meet72004" target="_blank" class="project-link">
+                            <i class="fa-brands fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="gmail">
-           <div class="logoG"><i class="fa-solid fa-envelope"></i></div>
-           <div class="mail">meet72004@gmail.com</div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title">Educational Background</h2>
+            <div class="education-card">
+                <div class="education-item">
+                    <div class="education-label">10th Percentage</div>
+                    <div class="education-value">91%</div>
+                </div>
+                <div class="education-item">
+                    <div class="education-label">12th Percentage</div>
+                    <div class="education-value">80%</div>
+                </div>
+                <div class="education-item">
+                    <div class="education-label">CGPA Semester I</div>
+                    <div class="education-value">8.15</div>
+                </div>
+                <div class="education-item">
+                    <div class="education-label">CGPA Semester II</div>
+                    <div class="education-value">8.30</div>
+                </div>
+                <div class="education-item">
+                    <div class="education-label">CGPA Semester III</div>
+                    <div class="education-value">8.10</div>
+                </div>
+                <div class="education-item">
+                    <div class="education-label">CGPA Semester IV</div>
+                    <div class="education-value">8.30</div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's connect and discuss opportunities</p>
+            <div class="contact-grid">
+                <a href="https://wa.me/918107442131" target="_blank" class="contact-card">
+                    <div class="contact-icon whatsapp-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h3 class="contact-title">WhatsApp</h3>
+                        <p class="contact-detail">+91 8107442131</p>
+                    </div>
+                    <div class="contact-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </a>
+                <a href="mailto:meet72004@gmail.com" class="contact-card">
+                    <div class="contact-icon email-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h3 class="contact-title">Email</h3>
+                        <p class="contact-detail">meet72004@gmail.com</p>
+                    </div>
+                    <div class="contact-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Meet Purohit. Built with passion and dedication.</p>
+        </div>
+    </footer>
+
     <script src="app.js"></script>
 </body>
 </html>
